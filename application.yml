@@ -1,0 +1,17 @@
+#spring配置
+spring:
+  profiles:
+    #配置环境文件
+    active: dev
+#test配置
+---
+spring:
+  profiles: test
+  application:
+    name: spring-cloud-config-test
+#dev配置
+---
+spring:
+  profiles: dev
+  application:
+    name: spring-cloud-config-dev
