@@ -7,15 +7,11 @@ spring:
 ---
 spring:
   profiles: test
-  application:
-    name: spring-cloud-config-test
 server:
   port: 8081
 #dev配置
 ---
 spring:
   profiles: dev
-  application:
-    name: spring-cloud-config-dev
 server:
   port: 8082
